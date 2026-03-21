@@ -1,4 +1,4 @@
-public class Reversenumber {
+public class Reversestring {
 	public static void main(String[] args) {
 		String s = "1234";
 		String ans = "";
