@@ -1,5 +1,5 @@
 
-public class Paladrome {
+public class Paladrome1 {
 
 	public static void main(String[] args) {
 		String s = "aba";
