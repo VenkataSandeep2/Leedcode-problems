@@ -47,3 +47,34 @@ class Solution {
 	}
 
 }
+
+		/*
+
+		OR
+
+			*/
+package com.leetcode;
+
+public class Maxdistance1 {
+
+	public static void main(String[] args) {
+		int[] arr = {1,2,4,1,5,8};
+		int n = arr.length;
+		int ans  = 0;
+		
+		for(int i = 0; i<n-1; i++) {
+			for(int j =1; j<n;j++)
+			{
+				//System.out.println(arr[j]+ ""+arr[i]);
+				if(arr[i] != arr[j]) 
+				{
+					int diff =j-i;
+					ans = Math.max(ans, diff);
+				}
+			}
+		}
+		System.out.println("The answer is : " + ans);
+	}
+
+}
+
